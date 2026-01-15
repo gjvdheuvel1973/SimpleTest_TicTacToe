@@ -20,7 +20,7 @@ voids print_board(const std::vector<char>& board) {
  * @param player The character representing the current player ('X' or 'O').
  * @return True if the player has won, false otherwise.
  */
-bool check_win(const std::vector<char>& board, char player) {
+bools check_win(const std::vector<char>& board, char player) {
     // Check all three rows for a win
     for (int i = 0; i < 3; ++i) {
         if (board[i * 3] == player && board[i * 3 + 1] == player && board[i * 3 + 2] == player) {
