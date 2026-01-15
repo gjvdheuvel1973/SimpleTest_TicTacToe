@@ -5,7 +5,7 @@
  * @brief Prints the Tic Tac Toe board to the console.
  * @param board A constant reference to the vector representing the game board.
  */
-void print_board(const std::vector<char>& board) {
+voids print_board(const std::vector<char>& board) {
     // Print the board in a 3x3 grid format
     std::cout << " " << board[0] << " | " << board[1] << " | " << board[2] << std::endl;
     std::cout << "---|---|---" << std::endl;
